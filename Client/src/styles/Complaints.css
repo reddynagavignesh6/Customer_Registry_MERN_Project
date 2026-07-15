@@ -1,0 +1,31 @@
+.complaints-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.search-box{
+
+    max-width:350px;
+
+    border-radius:12px;
+
+}
+
+.table th{
+
+    color:#475569;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}

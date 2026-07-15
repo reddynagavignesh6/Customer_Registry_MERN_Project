@@ -1,0 +1,61 @@
+.complaint-box{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.complaint-box:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.complaint-box h5{
+
+    font-weight:700;
+
+}
+
+.complaint-box p{
+
+    min-height:70px;
+
+}
+
+.badge{
+
+    font-size:13px;
+
+    padding:8px 14px;
+
+}
+
+.back-btn{
+
+    border:none;
+
+    background:transparent;
+
+    color:#2563EB;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+    cursor:pointer;
+
+}
+
+.back-btn:hover{
+
+    color:#1D4ED8;
+
+}

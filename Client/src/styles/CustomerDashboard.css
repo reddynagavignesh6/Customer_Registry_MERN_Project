@@ -1,0 +1,197 @@
+.dashboard-page{
+
+    background:#F8FAFC;
+
+    min-height:100vh;
+
+    padding:40px;
+
+}
+
+/* Welcome Banner */
+
+.welcome-banner{
+
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:22px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 10px 30px rgba(37,99,235,.25);
+
+}
+
+.welcome-banner h1{
+
+    font-size:38px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.welcome-banner p{
+
+    font-size:18px;
+
+    opacity:.95;
+
+}
+
+/* Dashboard Cards */
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+.dashboard-box{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.dashboard-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-icon{
+
+    width:80px;
+
+    height:80px;
+
+    background:#EFF6FF;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:0 auto 20px;
+
+}
+
+.dashboard-icon i{
+
+    font-size:38px;
+
+    color:#2563EB;
+
+}
+
+.dashboard-box h4{
+
+    color:#1E293B;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.dashboard-box p{
+
+    color:#64748B;
+
+    min-height:55px;
+
+    margin-bottom:20px;
+
+    line-height:1.6;
+
+}
+
+.dashboard-box .btn{
+
+    border-radius:12px;
+
+    padding:10px 25px;
+
+}
+
+/* Quick Guide */
+
+.guide-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.guide-card h2{
+
+    text-align:center;
+
+    color:#1E293B;
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+.guide-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.guide-card li{
+
+    padding:12px 0;
+
+    border-bottom:1px solid #E2E8F0;
+
+    color:#475569;
+
+    font-size:17px;
+
+}
+
+.guide-card li::before{
+
+    content:"✔";
+
+    color:#2563EB;
+
+    font-weight:bold;
+
+    margin-right:10px;
+
+}

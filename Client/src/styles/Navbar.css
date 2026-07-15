@@ -1,0 +1,48 @@
+.navbar-custom{
+    background:#ffffff;
+    box-shadow:0 4px 20px rgba(0,0,0,.06);
+    padding:18px 0;
+}
+
+.logo{
+    font-size:28px;
+    color:#2563EB;
+}
+
+.brand-name{
+    font-size:26px;
+    font-weight:700;
+    color:#1F2937;
+    margin-left:10px;
+}
+
+.nav-link{
+    color:#374151 !important;
+    font-weight:500;
+    margin-left:18px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#2563EB !important;
+}
+
+.btn-login{
+    color:#2563EB;
+    font-weight:600;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+.btn-start{
+    background:#2563EB;
+    color:white;
+    padding:10px 22px;
+    border-radius:12px;
+    text-decoration:none;
+    transition:.3s;
+}
+.btn-start:hover{
+    background:#1D4ED8;
+    color:white;
+}

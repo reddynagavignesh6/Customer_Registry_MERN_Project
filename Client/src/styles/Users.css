@@ -1,0 +1,29 @@
+.users-card{
+    background:#fff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.search-box{
+    max-width:300px;
+}
+
+.role-badge{
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.table thead{
+    background:#F8FAFC;
+}
+
+.table th{
+    color:#475569;
+}
+
+.table tbody tr:hover{
+    background:#F8FBFF;
+}

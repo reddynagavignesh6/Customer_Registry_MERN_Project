@@ -1,0 +1,37 @@
+.agents-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.search-box{
+
+    max-width:320px;
+
+}
+
+.table thead{
+
+    background:#F8FAFC;
+
+}
+
+.table th{
+
+    color:#475569;
+
+    font-weight:600;
+
+}
+
+.table tbody tr:hover{
+
+    background:#F8FBFF;
+
+}
